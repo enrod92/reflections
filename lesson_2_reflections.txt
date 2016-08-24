@@ -1,4 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-> Net git hidden folder is created (repository metadata), and that's needed for being able to do version control on all files
+> A git hidden folder is created (repository metadata), which needed for being able to do version control on all files
 in the directory, and subdirectories where the repository was initialized.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+> It's a logical temporary place for adding the files whose changes will be committed. Contrary to the working directory which is persistent
+and the actual location of files, or the repository which is a logical aggrupation of files that will undergo version control in conjunction.
