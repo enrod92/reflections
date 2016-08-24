@@ -7,3 +7,8 @@ How is the staging area different from the working directory and the repository?
 
 > It's a logical temporary place for adding the files whose changes will be committed. Contrary to the working directory which is persistent
 and the actual location of files, or the repository which is a logical aggrupation of files that will undergo version control in conjunction.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+> Add only the affected files modified by the overall logical change. That way every commit will detail a single significant change and details
+of only the files that are part of that update.
