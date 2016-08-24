@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+> Net git hidden folder is created (repository metadata), and that's needed for being able to do version control on all files
+in the directory, and subdirectories where the repository was initialized.
