@@ -18,3 +18,7 @@ What are some situations when branches would be helpful in keeping your history 
 > Major experimental changes: since branches will allow to keep working on the new version without affecting the original code.
 > Uncertain changes to original code: same reason to keep working on an experimental version without affecting the original.
 > Multiple implementations of the same solution: in order to have the different variants in order to determine the most effective one.
+
+How do the diagrams help you visualize the branch structure?
+
+> Help me understand the structure, and determine where the changes will be applied.
