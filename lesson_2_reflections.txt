@@ -27,3 +27,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 > A single branch is created containing all changes made on the two branches that were used to perform the merge operation.
 > It's represented like that due to the parent relationship they hold.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+> Pro: It won't render the code into an unstable version for automatically adding al changes.
+> Con: Manual merge will require time for identifying, and evaluating the best modification that will be used on the new commit.
