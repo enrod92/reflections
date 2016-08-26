@@ -22,3 +22,8 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 > Help me understand the structure, and determine where the changes will be applied.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+> A single branch is created containing all changes made on the two branches that were used to perform the merge operation.
+> It's represented like that due to the parent relationship they hold.
