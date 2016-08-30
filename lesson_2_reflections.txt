@@ -1,34 +1,27 @@
 What happens when you initialize a repository? Why do you need to do it?
-
-> A git hidden folder is created (repository metadata), which needed for being able to do version control on all files
-in the directory, and subdirectories where the repository was initialized.
+    > A git hidden folder is created (repository metadata), which needed for being able to do version control on all files
+    in the directory, and subdirectories where the repository was initialized.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-> It's a logical temporary place for adding the files whose changes will be committed. Contrary to the working directory which is persistent
-and the actual location of files, or the repository which is a logical aggrupation of files that will undergo version control in conjunction.
+    > It's a logical temporary place for adding the files whose changes will be committed. Contrary to the working directory which is persistent
+    and the actual location of files, or the repository which is a logical aggrupation of files that will undergo version control in conjunction.
 
 How can you use the staging area to make sure you have one commit per logical change?
-
-> Add only the affected files modified by the overall logical change. That way every commit will detail a single significant change and details
-of only the files that are part of that update.
+    > Add only the affected files modified by the overall logical change. That way every commit will detail a single significant change and details
+    of only the files that are part of that update.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
-> Major experimental changes: since branches will allow to keep working on the new version without affecting the original code.
-> Uncertain changes to original code: same reason to keep working on an experimental version without affecting the original.
-> Multiple implementations of the same solution: in order to have the different variants in order to determine the most effective one.
+    > Major experimental changes: since branches will allow to keep working on the new version without affecting the original code.
+    > Uncertain changes to original code: same reason to keep working on an experimental version without affecting the original.
+    > Multiple implementations of the same solution: in order to have the different variants in order to determine the most effective one.
 
 How do the diagrams help you visualize the branch structure?
-
-> Help me understand the structure, and determine where the changes will be applied.
+    > Help me understand the structure, and determine where the changes will be applied.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-
-> A single branch is created containing all changes made on the two branches that were used to perform the merge operation.
-> It's represented like that due to the parent relationship they hold.
+    > A single branch is created containing all changes made on the two branches that were used to perform the merge operation.
+    > It's represented like that due to the parent relationship they hold.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-> Pro: It won't render the code into an unstable version for automatically adding al changes.
-> Con: Manual merge will require time for identifying, and evaluating the best modification that will be used on the new commit.
+    > Pro: It won't render the code into an unstable version for automatically adding al changes.
+    > Con: Manual merge will require time for identifying, and evaluating the best modification that will be used on the new commit.
