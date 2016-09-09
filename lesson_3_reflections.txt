@@ -18,4 +18,12 @@ developers to work on new features or fixes, without modifying the main code as 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 > Git will use it to compare the changes that have been added to the remote repository and the ones
 we added by our own, and will decide how to better perform the sync according to the differences
-between the local and remote repositories. 
+between the local and remote repositories.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+> Could be by checking the code itself or a copy of it which may need manual references to the new data.
+For updates to the author I may need to communicate them via any messaging or email software, and that may
+include risks as delivery failure or the author overseeing the updates.
+> It may not necessary be more difficult, but less efficient, and more prone to miscommunication problems.
+Such as updates on the code being reviewed not sent or feedback never received or checked.
