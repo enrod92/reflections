@@ -27,3 +27,13 @@ For updates to the author I may need to communicate them via any messaging or em
 include risks as delivery failure or the author overseeing the updates.
 > It may not necessary be more difficult, but less efficient, and more prone to miscommunication problems.
 Such as updates on the code being reviewed not sent or feedback never received or checked.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+> I would rather keep making changes on a separate branch when I find myself working on a change that still has a way to
+go in order to be fully completed. This allows me to modify the code freely until I get the desired result without
+tampering too much with the main code.
+> I could perform changes on the master branch directly when those are very small changes that don't modify
+the general workings, or just for fixing typos or incorrect values that don't require extensive
+testing or investigation as with a new feature or fix. Advantages, could be more efficient updates on
+the main code for small changes that doesn't impact the code inner workings.
